@@ -25,7 +25,7 @@
 		99C3AB01246895EA00DDBFEC /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C3AB00246895EA00DDBFEC /* ComplicationController.swift */; };
 		99C3AB03246895EF00DDBFEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C3AB02246895EF00DDBFEC /* Assets.xcassets */; };
 		99C3AB06246895EF00DDBFEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C3AB05246895EF00DDBFEC /* Preview Assets.xcassets */; };
-		99C3AB0B246895EF00DDBFEC /* WatchOS Version.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 99C3AAE5246895DF00DDBFEC /* WatchOS Version.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		99C3AB0B246895EF00DDBFEC /* DubDubDown.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 99C3AAE5246895DF00DDBFEC /* DubDubDown.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		99C3AB182468AA2300DDBFEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9989F368246880DE00E3637A /* Assets.xcassets */; };
 		99C3AB1B2468AF1E00DDBFEC /* CountDownWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C3AB1A2468AF1E00DDBFEC /* CountDownWatchView.swift */; };
 		99C3AB1E2468B0C200DDBFEC /* DetailItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C3AB1D2468B0C200DDBFEC /* DetailItemsView.swift */; };
@@ -66,7 +66,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				99C3AB0B246895EF00DDBFEC /* WatchOS Version.app in Embed Watch Content */,
+				99C3AB0B246895EF00DDBFEC /* DubDubDown.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,7 +74,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9989F35F246880D500E3637A /* DubCountDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DubCountDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9989F35F246880D500E3637A /* DubDubDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DubDubDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9989F362246880D500E3637A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9989F364246880D500E3637A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9989F366246880D500E3637A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 		9989F36E246880DE00E3637A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9989F370246880DE00E3637A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9989F37824688BC900E3637A /* CountDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownView.swift; sourceTree = "<group>"; };
-		99C3AAE5246895DF00DDBFEC /* WatchOS Version.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchOS Version.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C3AAE5246895DF00DDBFEC /* DubDubDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DubDubDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C3AAE8246895DF00DDBFEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		99C3AAEA246895E900DDBFEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99C3AAEC246895E900DDBFEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -134,8 +134,8 @@
 		9989F360246880D500E3637A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9989F35F246880D500E3637A /* DubCountDown.app */,
-				99C3AAE5246895DF00DDBFEC /* WatchOS Version.app */,
+				9989F35F246880D500E3637A /* DubDubDown.app */,
+				99C3AAE5246895DF00DDBFEC /* DubDubDown.app */,
 				99C3AAF1246895EA00DDBFEC /* WatchOS Version Extension.appex */,
 			);
 			name = Products;
@@ -229,7 +229,7 @@
 			);
 			name = DubCountDown;
 			productName = DubCountDown;
-			productReference = 9989F35F246880D500E3637A /* DubCountDown.app */;
+			productReference = 9989F35F246880D500E3637A /* DubDubDown.app */;
 			productType = "com.apple.product-type.application";
 		};
 		99C3AAE4246895DF00DDBFEC /* WatchOS Version */ = {
@@ -246,7 +246,7 @@
 			);
 			name = "WatchOS Version";
 			productName = "WatchOS Version";
-			productReference = 99C3AAE5246895DF00DDBFEC /* WatchOS Version.app */;
+			productReference = 99C3AAE5246895DF00DDBFEC /* DubDubDown.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		99C3AAF0246895EA00DDBFEC /* WatchOS Version Extension */ = {
@@ -452,7 +452,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -506,7 +506,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -531,7 +531,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.kitn.DubCountDown;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DubDubDown;
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -553,7 +553,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.kitn.DubCountDown;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DubDubDown;
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -618,7 +618,7 @@
 				IBSC_MODULE = WatchOS_Version_Extension;
 				INFOPLIST_FILE = "WatchOS Version/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = net.kitn.DubCountDown.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DubDubDown;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -637,7 +637,7 @@
 				IBSC_MODULE = WatchOS_Version_Extension;
 				INFOPLIST_FILE = "WatchOS Version/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = net.kitn.DubCountDown.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DubDubDown;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
