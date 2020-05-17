@@ -6,4 +6,4 @@ DubDubDown is a very simple app, which lets you know exactly when the <a href="h
 
 This includes a watchOS app, as well as a macOS app. 
 
-You can get benifit of the countdown technique or even nothing from this open-sources app, I just made this when I was bored.
+You can get benifit of the countdown technique or even nothing from this open-source app, I just made this when I was bored.
